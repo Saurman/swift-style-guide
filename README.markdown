@@ -405,6 +405,7 @@ The example above demonstrates the following style guidelines:
  + Don't add modifiers such as `internal` when they're already the default. Similarly, don't repeat the access modifier when overriding a method.
  + Organize extra functionality (e.g. printing) in extensions.
  + Hide non-shared, implementation details such as `centerString` inside the extension using `private` access control.
+ + Avoid adding `return` for a single line methods
 
 ### Use of Self
 

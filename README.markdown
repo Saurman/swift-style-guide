@@ -383,16 +383,16 @@ class Circle: Shape {
   }
 
   override func area() -> Double {
-    return Double.pi * radius * radius
+    Double.pi * radius * radius
   }
 }
 
 extension Circle: CustomStringConvertible {
   var description: String {
-    return "center = \(centerString) area = \(area())"
+    "center = \(centerString) area = \(area())"
   }
   private var centerString: String {
-    return "(\(x),\(y))"
+    "(\(x),\(y))"
   }
 }
 ```
@@ -420,7 +420,7 @@ For conciseness, if a computed property is read-only, omit the get clause. The g
 **Preferred**:
 ```swift
 var diameter: Double {
-  return radius * 2
+  radius * 2
 }
 ```
 

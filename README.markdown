@@ -50,10 +50,6 @@ Our overarching goals are clarity, consistency and brevity, in that order.
 * [Multi-line String Literals](#multi-line-string-literals)
 * [No Emoji](#no-emoji)
 * [No #imageLiteral or #colorLiteral](#no-imageliteral-or-colorliteral)
-* [Organization and Bundle Identifier](#organization-and-bundle-identifier)
-* [Copyright Statement](#copyright-statement)
-* [Smiley Face](#smiley-face)
-* [References](#references)
 
 
 ## Correctness

@@ -706,14 +706,14 @@ For empty arrays and dictionaries, use type annotation. (For an array or diction
 
 **Preferred**:
 ```swift
-var names: [String] = []
-var lookup: [String: Int] = [:]
+var names = [String]()
+var lookup = [String: Int]()
 ```
 
 **Not Preferred**:
 ```swift
-var names = [String]()
-var lookup = [String: Int]()
+var names: [String] = []
+var lookup: [String: Int] = [:]
 ```
 
 **NOTE**: Following this guideline means picking descriptive names is even more important than before.
